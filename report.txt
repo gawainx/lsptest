@@ -1,0 +1,44 @@
+Debugger listening on ws://127.0.0.1:6004/b22c7c99-8b1f-48e5-8e33-16d731e9d20f
+For help, see: https://nodejs.org/en/docs/inspector
+[-->onInitialize ] isTracingOn=[true],
+	skProtocolProcess=[/usr/local/bin/sourcekite],skProtocolProcessAsShellCmd=[false]
+[-->onDidChangeConfiguration]
+[-->onDidChangeConfiguration tracing:
+	    swiftDiverBinPath=[/Library/Developer/Toolchains/swift-tensorflow-RELEASE-0.3.1.xctoolchain/usr/bin/swift],
+		shellPath=[/bin/sh]]
+[sourcekite] ***sourcekite initializing with skProtocolProcess at [/usr/local/bin/sourcekite]
+[-->SourcekiteResponseHandler constructor done]
+[sourcekite] ***stderr***dyld: Library not loaded: @rpath/libswiftCore.dylib
+  Referenced from: /usr/local/bin/sourcekite
+  Reason: image not found
+
+[sourcekite] [exited] code: null, signal: SIGABRT
+[---onDidChangeContent]
+[---onDidChangeContent]
+[---onDidChangeContent]
+[request] {
+  key.request: source.request.codecomplete,
+  key.sourcefile: "/Users/yat/code/swift/debuglsp/hello.swift",
+  key.offset: 1,
+  key.compilerargs: ["/Users/yat/code/swift/debuglsp/Package.swift","/Users/yat/code/swift/debuglsp/Tests/LinuxMain.swift","/Users/yat/code/swift/debuglsp/hello.swift","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"],
+  key.sourcetext: "i"
+}
+
+
+[Error - 9:28:16 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot call write after a stream was destroyed
+  Code: -32603 
+[---onDidChangeContent]
+[---onDidChangeContent]
+[request] {
+  key.request: source.request.codecomplete,
+  key.sourcefile: "/Users/yat/code/swift/debuglsp/hello.swift",
+  key.offset: 3,
+  key.compilerargs: ["/Users/yat/code/swift/debuglsp/Package.swift","/Users/yat/code/swift/debuglsp/Tests/LinuxMain.swift","/Users/yat/code/swift/debuglsp/hello.swift","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"],
+  key.sourcetext: "imp"
+}
+
+
+[Error - 9:28:19 PM] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot call write after a stream was destroyed
+  Code: -32603 

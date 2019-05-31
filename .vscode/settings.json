@@ -1,0 +1,5 @@
+{
+    "sde.languageServerMode": "sourcekite",
+    "sde.enableTracing.LSPServer": true,
+    "sde.enableTracing.client": true
+  }
